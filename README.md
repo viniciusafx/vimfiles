@@ -1,2 +1,15 @@
-#vimfiles
+# vimfiles
 
+Configurações pessoais do meu vim.
+
+## Instruções de instalação no Linux
+
+```
+git clone git@github.com:viniciusafx/vimfiles.git ~/.vim
+
+ln -s ~/.vim/.vimrc ~/.vimrc
+
+cd ~/.vim
+
+git submodule update --init
+```
